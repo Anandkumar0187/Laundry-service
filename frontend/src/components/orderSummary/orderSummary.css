@@ -11,6 +11,9 @@
 .divp1 {
   width: 40vw;
 }
+.pickupp1{
+  margin-left: 450px;
+}
 .modalBackgroundp1 {
   width: 60vw;
   background-color: #ffffff;
@@ -88,7 +91,7 @@ p {
   font-weight: bold;
   margin-right: 20px;
   color: #ffffff;
-  margin-left: 550px;
+  margin-left: 450px;
 }
 .totalprice {
   font-size: 22px;

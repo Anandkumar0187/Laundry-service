@@ -32,7 +32,7 @@ const Orders = finaldata;
   const totalPrice = finalOrdervalue
   const confirm = ()=>{
     let user=localStorage.getItem('token')
-    fetch("http://localhost:8080/orders", {
+    fetch("https://api-laundry-app.herokuapp.com/orders", {
       method : "POST",
       headers : {
         "Authorization" :user,
@@ -57,9 +57,9 @@ const Orders = finaldata;
 const userAddress = localStorage.getItem('address')
   return (
     <>
-    <div className="overlay">
-      <div classname="overlay2"></div>
-      <div className="summary">
+    <div className="overlayp">
+      <div classname="overlayp2"></div>
+      <div className="summaryp2">
         <div className="s-header">
           <p>Summary</p>
           <button onClick={handleModal}>
@@ -68,6 +68,7 @@ const userAddress = localStorage.getItem('address')
         </div>
         <div className="s-location">
           <select className="options" onChange={handleAddress}>
+            <option>Select</option>
             <option >Delhi</option>
             <option >Mumbai</option>
             <option >Bhopal</option>
@@ -101,16 +102,19 @@ const userAddress = localStorage.getItem('address')
         <p>pickUp Charge :</p>
           <div id="charge">90</div>
         </div>
-        <div className="total">
+        <div className="totalp2">
         <p>Total :</p>
           <div id="total-amount">Rs {subTotal + 90}</div>
         </div>
         <div className="division"></div>
         <p id="address">Address</p>
         <div className="user-address">
+          <h3>Home</h3>
             {userAddress}
         </div>
-        <button onClick={confirm}>Confirm</button>
+        <div className="cnfrm">
+        <button className="confirm-btn" onClick={confirm}>Confirm</button>
+        </div>
       </div>
       </div>
     </>

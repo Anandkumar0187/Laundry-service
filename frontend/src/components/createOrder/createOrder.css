@@ -14,7 +14,7 @@ body {
 
 .search > p {
   margin-top: 10px;
-  margin-left: 120px;
+  margin-left: 60px;
 }
 .search > .search-bar {
   width: 140px;
@@ -28,7 +28,7 @@ body {
   border-right: none;
 }
 .search > .search-bar > .search-icon {
-  background-image: url(/public/images/search.svg);
+  background-image: url("/public/images/search.svg");
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@ body {
 .tablep2 {
   height: auto;
   width: 100%;
-  margin: 20px 30px 0px 120px;
+  margin: 20px 30px 0px 60px;
   border: 1px solid #e0e0e0;
 }
 .table-header {

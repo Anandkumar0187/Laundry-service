@@ -1,16 +1,18 @@
 import "./cancelAlert.css"
 const CancelAlert = ({ id, setOpenModal }) => {
+  const token = localStorage.getItem('token');
   const caneclOrder = () => {
-    fetch(`http://localhost:8080/orders/${id}`, {
+    console.log(id)
+    fetch(`https://api-laundry-app.herokuapp.com/orders/${id}`, {
       method: "DELETE",
       headers: {
         "Accept": "application/json",
         "Content-Type": "application/json",
-        "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzI5OGM5NWRiODk1ODk4MjcxMmY4YjkiLCJpYXQiOjE2NjM3NDcwMzUsImV4cCI6MTY2NDM1MTgzNX0.YQxy2QAOtJz1W2V-iry6cT_672UjOg0WU6C4czH4R4o"
+        "Authorization": `${token}`
       },
     })
     setOpenModal(false)
-    window.location.reload()
+    
 
   }
   return (

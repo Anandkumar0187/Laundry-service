@@ -35,7 +35,7 @@ const Orders = () => {
 
 
   useEffect(() => {
-    fetch("http://localhost:8080/orders", {
+    fetch("https://api-laundry-app.herokuapp.com/orders", {
       method: "GET",
       headers: {
         "Accept": "application/json",

@@ -57,13 +57,13 @@ const OrderSummary = ({ arr, order, setOpenModal, setCancel }) => {
                           <td className="cloths" key={j}>{sub.name}</td>
                         )
                       })}
-                      <td>{obj.quantity}</td>
-                      <td>{obj.price}</td>
+                      <td>{obj.quantity} X {obj.washprice}</td>
                     </tr>
                   )
                 })}
               </tbody>
             </table>
+            <p className="pickupp1">Pickup Charges 90</p>
             <div className="totalStrip">
               <div className="rightfloat">
                 <div><span className="total">Total:</span><span className="totalprice">Rs {data.totalPrice}</span></div>

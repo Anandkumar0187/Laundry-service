@@ -57,7 +57,7 @@ function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = "http://localhost:8080/api/users";
+      const url = "https://api-laundry-app.herokuapp.com/api/users";
       const data = {
         name: userName,
         email: userEmail,

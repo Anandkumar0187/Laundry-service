@@ -22,7 +22,7 @@ function Signin() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = "http://localhost:8080/api/auth";
+      const url = "https://api-laundry-app.herokuapp.com/api/auth";
      
       const { data: res } = await axios.post(url, data);
       localStorage.setItem("token", res.data[1]);

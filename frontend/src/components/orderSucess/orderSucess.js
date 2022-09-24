@@ -8,7 +8,7 @@ function OrderSuccess() {
       <div className="orderS2"></div>
     <div className="ordersuccess-container">
         <div className="box">
-            <img className="circleimg" src="./images/order.jpg" />
+            <img className="circleimg" src="./images/order.jpg" alt="" />
           <div className="ordersuccess-text">
             <div className="successfull1">
             Your order is successfully.
@@ -16,7 +16,7 @@ function OrderSuccess() {
             <div className="successfull2">
             You can track the delivery in the "Orders" section.
             </div>
-            <Link to="/">
+            <Link to="/orders">
               <button className="ordersuccess-btn">Go to orders</button>
             </Link>
           </div>

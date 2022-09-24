@@ -22,7 +22,7 @@ const ProductType = ({item,index , setnewObjs ,iscancel}) =>{
         },{
             name:"Towel",
             imgNormal:"./images/towel.svg",
-            imgBlue:"./images/towel.svg",
+            imgBlue:"./images/blueTowel.svg",
             price:10,
             id:3
         },{
