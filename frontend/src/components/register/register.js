@@ -84,10 +84,10 @@ function Register() {
   return (
     <>
       <Header />
-      <div className="register-container">
-        <div className="register-box-1">
-          <div className="register-box-1-inner">
-            <div className="laundry-text-register">
+      <div className="register-containerp3">
+        <div className="register-box-1p3">
+          <div className="register-box-1-innerp3">
+            <div className="laundry-text-registerp3">
               <h1>
                 Laundry <br />
                 Service
