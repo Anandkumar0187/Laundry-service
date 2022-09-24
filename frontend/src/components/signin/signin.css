@@ -1,27 +1,30 @@
-.main {
+.mainsp3 {
     display: flex;
    
   }
-  .section-1 {
+  .section-1p3 {
     width: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 80px 0;
+    padding: 60px 0;
     /* background-color: #FFFFFF; */
   }
-  .laundrytext {
+  .laundrytextp3 h1 {
+  
     text-align: left;
-    font: normal normal 900 100px/120px Avenir;
+  font-size: 75px;
+  font-weight: 900;
     letter-spacing: 0px;
     color: #5861AE;
+  
     text-transform: capitalize;
     opacity: 1;
-    font-size: 48px;
+    margin-left: -25px;
     margin-bottom:12px;
   }
-  .doortext {
+  .doortextp3 h5 {
     text-align: left;
     font: normal normal normal 20px/26px Avenir;
     letter-spacing: 0.8px;
@@ -30,7 +33,7 @@
     opacity: 1;
     margin-left: -10%;
   }
-  .donotaccounttext {
+  .donotaccounttextp3 {
     text-align: left;
     font: normal normal normal 16px/26px Avenir;
     letter-spacing: 0.64px;
@@ -41,7 +44,7 @@
     margin-top: 10%;
     margin-left: -26%;
   }
-  .registerbtn {
+  .registerbtnp3 {
     border: 2px solid #4552c1;
     border-radius: 4px;
     opacity: 1;
@@ -55,19 +58,19 @@
     padding: 10px 27px;
     background-color: white;
   }
-  .section-2 {
+  .section-2p3 {
     width: 50vw;
     background: #B9C0FD1A 0% 0% no-repeat padding-box;
     opacity: 1;
     padding: 7rem 0;
   }
-  .sign-heading-text-div {
+  .sign-heading-text-divp3 {
     display: flex;
     justify-content: flex-start;
     padding: 32px 148px;
     margin-left: -5px;
   }
-  .sign-heading-text {
+  .sign-heading-textp3 {
     font-size: 32px;
     text-align: left;
     font: normal normal medium 32px/60px Avenir;
@@ -76,14 +79,14 @@
     text-transform: uppercase;
     opacity: 1;
   }
-  .form-div {
+  .form-divp3 {
     box-sizing: border-box;
     padding: 0 140px;
     border-left: 2px solid #4552c1;
     height: 200px;
     
   }
-  input.box-input-field-2 {
+  input.box-input-field-2p3 {
     border: none;
     border-bottom: 2px solid #000000;
     width: 24rem;
@@ -96,7 +99,7 @@
     letter-spacing: 0.6px;
     opacity: 1;
   }
-  .form-div-2 {
+  .form-div-2p3 {
     display: flex;
     flex-direction: column;
     gap:50px;
@@ -104,7 +107,7 @@
       position: absolute;
   }
   
-  .forget-password-text {
+  .forget-password-textp3 {
     font: normal normal medium 16px/26px Avenir;
     letter-spacing: 0.64px;
     color: #4552c1;
@@ -115,12 +118,12 @@
     
     
   }
-  .signin-div {
+  .signin-divp3 {
     display: flex;
     justify-content: center;
     margin-left: -100px;
   }
-  .signin-btn {
+  .signin-btnp3 {
       background: #4552C1 0% 0% no-repeat padding-box;
       border-radius: 4px;
       opacity: 1;
@@ -134,11 +137,11 @@
     margin-left: 130px;
     margin-top: 25px;
   }
-  .errmsg{
+  .errmsgp3{
       color: red;
   }
   
-  .padlock{
+  .padlockp3{
       z-index: 2;
       position: absolute;
       margin-left: -20px;
