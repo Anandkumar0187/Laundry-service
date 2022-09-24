@@ -1,4 +1,4 @@
-.main-container {
+.main-containerp3 {
   display: flex;
   justify-content: space-evenly;
   background: transparent url("/public/images/Footer.jpg") 0% 0% no-repeat;
@@ -7,11 +7,11 @@
   background-size: cover;
   box-shadow: 10px 10px;
 }
-.box {
+.boxp3 {
   display: flex;
   flex-direction: column;
 }
-.box > h4 {
+.boxp3 > h4 {
   text-align: center;
   font: normal normal medium 18px/24px Avenir;
   letter-spacing: 0.18px;
@@ -20,14 +20,14 @@
   font-size: medium;
   font-weight: bold;
 }
-.box > h6 {
+.boxp3 > h6 {
   font: normal normal normal 14px/24px Avenir;
   letter-spacing: 0.14px;
   color: #182838;
   text-transform: capitalize;
   opacity: 1;
 }
-.logo:hover {
+.logop3:hover {
   cursor: pointer;
 }
 
@@ -36,7 +36,7 @@
   justify-content: space-evenly;
   margin-top: 15px;
 }
-.main-container {
+.main-containerp3 {
   display: flex;
   justify-content: space-evenly;
   background: transparent url("/public/images/Footer.jpg") 0% 0% no-repeat;
@@ -45,11 +45,11 @@
   background-size: cover;
   box-shadow: 10px 10px;
 }
-.box {
+.boxp3 {
   display: flex;
   flex-direction: column;
 }
-.box > h4 {
+.boxp3 > h4 {
   text-align: center;
   font: normal normal medium 18px/24px Avenir;
   letter-spacing: 0.18px;
@@ -58,14 +58,14 @@
   font-size: medium;
   font-weight: bold;
 }
-.box > h6 {
+.boxp3 > h6 {
   font: normal normal normal 14px/24px Avenir;
   letter-spacing: 0.14px;
   color: #182838;
   text-transform: capitalize;
   opacity: 1;
 }
-.logo:hover {
+.logop3:hover {
   cursor: pointer;
 }
 
