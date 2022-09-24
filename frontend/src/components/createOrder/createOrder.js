@@ -89,7 +89,7 @@ const CreateOrder = () => {
           <div className="search-icon"></div>
         </div>
       </div>
-      <div className="table">
+      <div className="tablep2">
         <div className="table-header">
           <p className="product-type">Product Type</p>
           <p className="quantity">Quantity</p>

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import CancelAlert from "../cancelAlert/cancelAlert";
 import OrderSummary from "../orderSummary/orderSummary";
 
@@ -14,7 +15,7 @@ const Orders = () => {
   const [orderid, setOrderid] = useState("")
   const [cancelModal, setCancelModal] = useState(false);
   let tableClass = "table table-striped"
-  let btnclass = "btn"
+  let btnclass = "btnp1"
   let extradivClass = "hidetable"
   if (data.length === 0) {
     tableClass = "hidetable"
@@ -52,14 +53,14 @@ const Orders = () => {
         <h1 className="heading">Orders | {data.length}</h1>
 
         <div className="searchbar">
-          <button className={btnclass}>Create</button>
+          <Link to="/createOrder">  <button className={btnclass}>Create</button></Link>
           <input onChange={(e) => { setInpValue(e.target.value) }} onMouseLeave={() => { setInpValue("") }} className="input" type="text" value={inpValue} />
-          <img className="image" src="./images/search.jpg" alt="Search icon" />
+          <img className="imagep1" src="./images/search.jpg" alt="Search icon" />
         </div>
       </div>
       <div className={extradivClass}>
         <p>No Orders avaialble</p>
-        <button className="btnindiv">Create</button>
+        <Link to="/createOrder"><button className="btnindiv">Create</button></Link>
       </div>
       <table className={tableClass} >
 

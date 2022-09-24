@@ -17,7 +17,7 @@
   align-self: flex-end;
 }
 
-.image {
+.imagep1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -38,7 +38,7 @@ input:focus-visible {
 input:focus-visible + img {
   visibility: hidden;
 }
-.btn {
+.btnp1 {
   width: 107px;
   height: 32px;
   font-size: 14px;
@@ -50,7 +50,7 @@ input:focus-visible + img {
   margin-right: 1px;
 }
 
-table {
+.table {
   box-sizing: border-box;
   margin-top: 26px;
 }

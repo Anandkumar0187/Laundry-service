@@ -1,4 +1,4 @@
-.cancelParent {
+.cancelParentp1 {
   width: 100%;
   position: absolute;
   top: 0;
@@ -8,7 +8,7 @@
   height: 981px;
 }
 
-.cancelcontainer {
+.cancelcontainerp1 {
   width: 415px;
   height: 210px;
   background: #ffffff;
@@ -17,13 +17,13 @@
   margin-left: 500px;
   box-sizing: border-box;
 }
-.cancelHeader {
+.cancelHeaderp1 {
   background-color: #5861ae;
   display: flex;
   justify-content: space-between;
   padding: 2%;
 }
-.summary {
+.summaryp1 {
   height: 10px;
   padding-top: 2px;
   color: #ffffff;

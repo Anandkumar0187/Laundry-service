@@ -1,4 +1,4 @@
-.summodal {
+.summodalp1 {
   width: 100%;
   display: flex;
   position: absolute;
@@ -8,19 +8,19 @@
   background: #00000050;
   height: 981px;
 }
-.div1 {
+.divp1 {
   width: 40vw;
 }
-.modalBackground {
+.modalBackgroundp1 {
   width: 60vw;
   background-color: #ffffff;
 }
-.summary {
+.summaryp1k {
   color: #ffffff;
   font-weight: 600;
   font-size: 22px;
 }
-.summHeader {
+.summHeaderp1 {
   background-color: #5861ae;
   display: flex;
   justify-content: space-between;

@@ -15,14 +15,14 @@ const CancelAlert = ({ id, setOpenModal }) => {
   }
   return (
     <>
-      <div className="cancelParent">
+      <div className="cancelParentp1">
 
         <div className="canceldiv1">
 
         </div>
-        <div className="cancelcontainer">
-          <div className="cancelHeader">
-            <p className="summary">Alert</p>
+        <div className="cancelcontainerp1">
+          <div className="cancelHeaderp1">
+            <p className="summaryp1">Alert</p>
 
             <button onClick={() => { setOpenModal(false) }} className="crossbtn" >╳</button>
 

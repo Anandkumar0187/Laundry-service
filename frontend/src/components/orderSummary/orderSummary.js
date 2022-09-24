@@ -13,13 +13,13 @@ const OrderSummary = ({ arr, order, setOpenModal, setCancel }) => {
 
   return (
     <>
-      <div className="summodal">
-        <div className="div1">
+      <div className="summodalp1">
+        <div className="divp1">
 
         </div>
-        <div className="modalBackground">
-          <div className="summHeader">
-            <h4 className="summary">Summary</h4>
+        <div className="modalBackgroundp1">
+          <div className="summHeaderp1">
+            <h4 className="summaryp1k">Summary</h4>
             <button onClick={() => { setOpenModal(false) }} className="crossbtn">╳</button>
           </div>
           <div className="storeInfo">
