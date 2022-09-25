@@ -1,8 +1,10 @@
+import { useState } from "react";
 import "./cancelAlert.css"
 const CancelAlert = ({ id, setOpenModal }) => {
   const token = localStorage.getItem('token');
+  const [xyz,setxyz]=useState(false)
   const caneclOrder = () => {
-    console.log(id)
+    // console.log(id)
     fetch(`https://api-laundry-app.herokuapp.com/orders/${id}`, {
       method: "DELETE",
       headers: {
@@ -11,9 +13,10 @@ const CancelAlert = ({ id, setOpenModal }) => {
         "Authorization": `${token}`
       },
     })
-    setOpenModal(false)
-    
-
+    setxyz(true);
+    if(xyz){
+      window.location.reload(false)
+    }
   }
   return (
     <>
@@ -40,7 +43,7 @@ const CancelAlert = ({ id, setOpenModal }) => {
             </div>
           </div>
           <div className="cancelbtnp">
-            <button onClick={() => { caneclOrder() }} className="proceedbtn">Proceed</button>
+            <button onClick={() => { caneclOrder(); setxyz(true) }} className="proceedbtn">Proceed</button>
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ const SummaryPage = ({ finaldata, handleModal,handleSuccess }) => {
   const [subTotal, setsubTotal] = useState(0);
   const [finalOrdervalue, setfinalOrderValue] = useState(0);
   const [totalItems, settotalTtems] = useState(0);
-  const [address,setAddress] = useState({});
+  const [address,setAddress] = useState({storeLocation : "Delhi",storeAddress: "Mukherjee Nagar",phone : 9876543210});
 
   useEffect(() => {
     let totalval = 0;
@@ -67,9 +67,8 @@ const userAddress = localStorage.getItem('address')
           </button>
         </div>
         <div className="s-location">
-          <select className="options" onChange={handleAddress}>
-            <option>Select</option>
-            <option >Delhi</option>
+          <select className="options"  onChange={handleAddress}>
+            <option selected>Delhi</option>
             <option >Mumbai</option>
             <option >Bhopal</option>
           </select>

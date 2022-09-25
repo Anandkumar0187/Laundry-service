@@ -163,7 +163,7 @@ input[type="number"] {
   height: 30px;
 }
 .blue3 {
-  background-image: url("/public/images/towel.svg");
+  background-image: url("/public/images/blueTowel.svg");
   background-repeat: no-repeat;
   margin-left: 30px;
   width: 30px;
