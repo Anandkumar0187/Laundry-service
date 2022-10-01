@@ -24,8 +24,6 @@ mongoose.connect("mongodb+srv://tsawant635:tsawant635@cluster0.r6b5bha.mongodb.n
 );
 
 
-
-
 // middlewares
 app.use(express.json());
 app.use(cors());
@@ -74,8 +72,6 @@ const authRoutes = require("./routes/auth");
 app.use("/api/users", userRoutes);
 app.use("/api/auth", authRoutes);
 app.use('/orders', orderRoutes);
-
-
 
 app.get('/', (req, res) => res.send('Hello World!'))
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))

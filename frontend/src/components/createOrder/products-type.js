@@ -2,7 +2,6 @@ import {React,useState,useEffect} from "react";
 import './createOrder.css'
 
 
-
 const ProductType = ({item,index , setnewObjs ,iscancel}) =>{
 
     const washTypes=[

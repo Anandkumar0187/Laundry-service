@@ -21,29 +21,6 @@ router.get('/', async (req, res) => {
   }
 })
 
-//getting orders by id
-router.get('/:id', async (req, res) => {
-  try {
-    const data = await orders.findOne({ orderid: req.params.id });
-    if (data === null) {
-      return res.status(500).json({
-        status: "failure",
-        message: "no orders found"
-      })
-    }
-    res.status(200).json({
-      status: "success",
-      data: data
-    })
-  } catch (error) {
-    res.status(500).json({
-      status: "failure",
-      message: error.message
-    })
-  }
-})
-
-
 //deleting order
 router.delete('/:id', async (req, res) => {
   try {
